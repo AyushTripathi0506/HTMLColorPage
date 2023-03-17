@@ -1,0 +1,99 @@
+:root {
+    --red: #ff0000;
+    --yellow: #ffff00;
+    --blue: #0000ff;
+    --green: #008000;
+    --purple: #800080;
+    --brown: #a52a2a;
+    --pink: #ffc0cb;
+    --orange: #ffa500;
+}
+.top-color {
+    display: flex;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 10px;
+}
+.color-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 340px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.color-red {
+    background-color: var(--red);
+    margin: 0 auto;
+    position: relative;
+    width: 275px;
+    height: 275px;
+}
+.color-yellow {
+    background-color: var(--yellow);
+    margin: 0 auto;
+    position: relative;
+    width: 275px;
+    height: 275px;
+}
+.color-blue {
+    background-color: var(--blue);
+    margin: 0 auto;
+    position: relative;
+    width: 275px;
+    height: 275px;
+}
+.color-green {
+    background-color: var(--green);
+    margin: 0 auto;
+    position: relative;
+    width: 275px;
+    height: 275px;
+}
+.top-text {
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 40px;
+}
+.color-text {
+    width: 100%;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+    border-color: gray;
+}
+.color-purple {
+    background-color: var(--purple);
+    margin: 0 auto;
+    position: relative;
+    width: 275px;
+    height: 275px;
+}
+.color-orange {
+    background-color: var(--orange);
+    margin: 0 auto;
+    position: relative;
+    width: 275px;
+    height: 275px;
+}
+.color-brown {
+    background-color: var(--brown);
+    margin: 0 auto;
+    position: relative;
+    width: 275px;
+    height: 275px;
+}
+.color-pink {
+    background-color: var(--pink);
+    margin: 0 auto;
+    position: relative;
+    width: 275px;
+    height: 275px;
+}
